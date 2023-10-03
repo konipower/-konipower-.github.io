@@ -1,13 +1,8 @@
-/* Stijl het navigatiemenu */
-nav {
- background-color: #333; /* Achtergrondkleur */
- padding: 10px; /* Ruimte rondom het menu */
+body {
+  background-color: lightblue;
 }
-/* Stijl de lijst in het menu */
-ul {
- list-style-type: none; /* Verwijder de standaard lijststijl */
- padding: 100;
+
+h1 {
+  color: navy;
+  margin-left: 20px;
 }
-/* Stijl de menu-items (lijstitems) */
-li {
- display: inline; /* Plaats de menu-items naast elkaar */
