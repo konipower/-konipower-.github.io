@@ -1,118 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
-<link rel="stylesheet" href="mystyle.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Template</title>
+  <link rel="stylesheet" href="css/styles.css">
+
 </head>
+
 <body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-</style>
-</head>
-<body>
-
-<h2>Dropdown Menu</h2>
-<p>mijn favo websites</p>
-
-<div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-  <a href="https://www.youtube.com/?gl=NL&hl=nl">Link 1</a>
-  <a href="https://poki.com/nl">Link 2</a>
+    <header>
+        <nav>
+            <img src="img/Logo.svg" alt="Logo" class="menu-logo">
+          <ul class="nav-menu">
+            <li><a href="index.html">Over mij</a></li>
+            <li>
+              <a href="#" class="menu-toggle">Informatica</a>
+              <ul class="submenu">
+                <li><a href="programmeren.html">Programmeren</a></li>
+                <li><a href="algoritmen.html">Algoritmen</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="menu-toggle">Digitaal Geletterdheid</a>
+              <ul class="submenu">
+                  <li><a href="ICTbasis.html">ICT-Basisvaardigheden</a></li>
+                  <li><a href="mediawijsheid.html">Mediawijsheid</a></li>
+                  <li><a href="DigitaleInformatieVaardigheden.html">Digitale informatievaardigheden</a></li>
+                  <li><a href="Computational.html">Computational thinking</a></li>
+                  <li><a href="p5/index.html">P5 game module</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </header>
+          
+      
   
-  </div>
-</div>
+      <main>
+        <!-- Persoonlijke introductie -->
+        <section class="section-light">
+            <div class="container">
+                <h2>Persoonlijke introductie</h2>
+                <div class="intro-content">
+                    <img src="img/me.jpg" alt="Your Name" class="profile-picture">
+                    <p>Hier is een beschrijving van mijzelf, mijn achtergrond en mijn interesses...</p>
+                </div>
+            </div>
+        </section>
 
+<!-- Vaardigheden -->
+<section class="section-dark">
+    <div class="container">
+        <h2>Vaardigheden</h2>
+        <ul class="skills-list">
+            <li>
+                <span class="skill-name">HTML</span>
+                <span class="rating" data-rating="5"></span>
+            </li>
+            <li>
+                <span class="skill-name">CSS</span>
+                <span class="rating" data-rating="4"></span>
+            </li>
+            <li>
+                <span class="skill-name">JavaScript</span>
+                <span class="rating" data-rating="3"></span>
+            </li>
+        </ul>
+    </div>
+</section>
 
+        <!-- Hobbies en interesses -->
+        <section class="section-light">
+            <div class="container">
+                <h2>Hobbies en interesses</h2>
+                <p>Hier zijn enkele van mijn persoonlijke interesses en hobby's...</p>
+            </div>
+        </section>
 
-</body>
-</html>
+        <!-- Favoriete websites -->
+<section class="section-dark">
+    <div class="container">
+        <h2>Mijn favoriete websites</h2>
+        <div class="favorite-websites">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                <img src="img/instagram.jfif" alt="Instagram" class="website-logo">
+                
+            </a><span>Instagram</span>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
+                <img src="img/tiktok.png" alt="TikTok" class="website-logo">
+                
+            </a><span>TikTok</span>
+        </div>
+    </div>
+</section>
 
-
-
+    </main>
   
- <header>
- <h1>Mijn Persoonlijke Webpagina</h1>
- </header>
- <section>
- <h2>Over Mij</h2>
- <p>ik ben konrad,ik hou van voetbal dit is mijn webpagina!</p>
- </section>
- <section>
- <h2>Mijn Favoriete Vakken</h2>
- <ul><li>programeren</li>
- <li>lo</li>
- <li>engels</li>
- </ul>
- </section>
- <section>
- <h2>Mijn Hobby's</h2>
- <ol>
- <li>voetbal</li>: <img src="voetbal.jpg" alt="Afbeelding van mijn eerste hobby"></li>
- <li>gamen</li>: <img src="gamen.jpg" alt="Afbeelding van mijn tweede hobby"></li>
-  <li>lego</li>: <img src="lego.jpg" alt="Afbeelding van mijn derde hobby"></li>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-   <ul>
-  <li><a href="mijnwebpagina.html">Home</a></li>
-<li><a href="pagina2.html">Pagina 2</a></li>
- </ul>
-   <body>
- <title>Mijn Persoonlijke Webpagina</title>
- <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+  <footer>
+    <p>&copy; 2023 EducateM Portfolio template. Alle rechten voorbehouden. <img src="img/Logo.svg" alt="Logo" class="menu-logo"></p>
+  </footer>
+  
+  <!-- Voeg hier je JavaScript-bestand toe -->
+  <script src="js/script.js"></script>
+
+
 </body>
- <footer>
- <p>Contactgegevens: <a
-href="konrad.waclawik24@gmail.com">je@emailadres@example.com</a></p>
-  <nav>
- </nav>
- </footer>
-  </body>
 </html>
- 
